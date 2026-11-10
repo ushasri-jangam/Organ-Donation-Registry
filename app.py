@@ -200,7 +200,7 @@ if menu == "Home":
                     st.info("No recent registrations.")
 
             st.caption(
-                "Live statistics retrieved from the MySQL database."
+                "Live statistics retrieved from the SQLite database."
             )
 
         except Exception as e:
